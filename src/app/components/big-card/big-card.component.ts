@@ -7,11 +7,12 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
 
-  photoCover:String ="https://criticalhits.com.br/wp-content/uploads/2019/01/naruto-uzumaki_qabz.png";
   @Input()
-  cardTiTle: String = 'teta';
+  photoCover:string ="";
   @Input()
-  cardDescription: String = '';
+  cardTitle: String = 'WRE';
+  @Input()
+  cardDescription: String = "Maverick";
 
   constructor() {}
 
