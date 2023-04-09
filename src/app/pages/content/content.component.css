@@ -2,12 +2,15 @@
     border: solid white 1px;
     width: 100%;
     height: 100%;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
 }
 
-.content__cover {
-    border: 1px solid gray;
-    
-}
 
 .content__cover > img{
     border: 1px solid rgb(144,144,144);
@@ -15,5 +18,12 @@
     width: 800;
     height: 400px;
     min-width: 800;
-    
+
+}
+.conent_description {
+    margin-top: 15px;
+}
+
+.conent_description >p{
+    color:  rgb(179, 171, 171);
 }
