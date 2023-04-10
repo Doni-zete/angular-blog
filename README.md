@@ -25,5 +25,4 @@ Desafio feito no Bootcamp de Angular, da [Digital Innovation One](https://web.di
         
       
 
-   ### Link para acessar a copia https://doni-zete.github.io/Netlix-Clone/
 
