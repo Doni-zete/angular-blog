@@ -8,8 +8,10 @@
 .small-card__photo > img{
     width: 200px;
     min-height: 200px;
-    margin-right: 20px;
+    margin-right: 20px;   
 }
+
+
 .small-card__title{
     display: flex;
     justify-content: center;
@@ -22,3 +24,4 @@
 .container__small-card__separator{
     margin-top: 10px;
 }
+

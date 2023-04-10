@@ -10,7 +10,7 @@ import {dataFake} from '../../data/dataFake'
 export class ContentComponent implements OnInit {
   photoCover: string =
     'https://t.ctcdn.com.br/b63_BJhAvkyOF0zKWSfv11SKlCQ=/1400x788/smart/i529935.png';
-  contentTitle: string = 'Noticias de Konoha';
+  contentTitle: string = '';
   contentDescription: string = 'Esperando pelo kage';
   private id: string | null = '0';
 
@@ -20,12 +20,15 @@ export class ContentComponent implements OnInit {
     this.route.paramMap.subscribe( value => 
     this.id = value.get("id")
     )
+    this.setValuesToComponent(this.id)
   }
-  setValuesToComponent(id:string){
-    const result = dataFake.filter(article => article.id.toString() ==  id )
+  setValuesToComponent(id:string | null){
+    const result = dataFake.filter(article => article.id ==  id )[0]
 
-    if(!result){
+   
       this.contentTitle = result.title
-    }
+      this.contentDescription = result.description
+      this.photoCover = result.photoCover
+ 
   }
 }
