@@ -19,7 +19,7 @@ Desafio feito no Bootcamp de Angular, da [Digital Innovation One](https://web.di
 * OBS: É necessário ter o git instalado em sua máquina
 * Executar o Seguinte comando no seu **Terminal**  ou no **CMD**:
 
-  ## `git clone https://github.com/Doni-zete/angular-blog.git`
+   ### Link para acessar o site online [The Hokages](https://doni-zete.github.io/angular-blog/)
         
         
         
